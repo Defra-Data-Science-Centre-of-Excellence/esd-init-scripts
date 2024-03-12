@@ -3,7 +3,7 @@
 ### spark.kryo.registrator org.apache.sedona.core.serde.SedonaKryoRegistrator
 ### spark.serializer org.apache.spark.serializer.KryoSerializer
 ### spark.sql.extensions org.apache.sedona.viz.sql.SedonaVizExtensions,org.apache.sedona.sql.SedonaSqlExtensions
-DIR=/databricks/jars
+DIR=/dbfs/databricks/jars
 SPARK="3.4"
 SCALA="2.12"
 SEDONA="1.5.1"
