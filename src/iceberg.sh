@@ -4,4 +4,4 @@
 # spark.sql.catalog.spark_catalog.warehouse /iceberg_test/
 DIR=/databricks/jars
 
-wget --no-check-certificate -NP $DIR "https://search.maven.org/remotecontent?filepath=org/apache/iceberg/iceberg-spark-runtime-3.4_2.12/1.4.3/iceberg-spark-runtime-3.4_2.12-1.4.3.jar"
+wget --no-check-certificate -NP $DIR "https://repo1.maven.org/maven2/org/apache/iceberg/iceberg-spark-3.4_2.12/1.4.3/iceberg-spark-3.4_2.12-1.4.3.jar"
