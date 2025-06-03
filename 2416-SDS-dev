@@ -12,6 +12,7 @@ wget $URL/sedona_171.sh -O- | bash
 #pip install /Volumes/prd_dash_lab/esa_restricted/sds/sds_dash_download-0.1.0-py3-none-any.whl
 
 # other libraries
+pip install pydantic==2.11
 pip install pyogrio==0.11.0
 pip install pandana==0.7
 pip install shapely==2.1.0
