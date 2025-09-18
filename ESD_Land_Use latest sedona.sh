@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 echo $DB_CLUSTER_NAME
-URL=https://raw.githubusercontent.com/Defra-Data-Science-Centre-of-Excellence/esd-init-scripts/l-fakes-sedona-1_8/src
+URL=https://raw.githubusercontent.com/Defra-Data-Science-Centre-of-Excellence/esd-init-scripts/main/src
 
 wget $URL/rootcert.sh -O- | bash -ex
 wget $URL/update.sh -O- | bash -ex

@@ -1,5 +1,5 @@
-# https://sedona.apache.org/1.7.1/setup/databricks/
-# works on Databricks runtime 15.4 LTS (includes Apache Spark 3.5.0, Scala 2.12)
+# https://sedona.apache.org/1.8.0/setup/databricks/
+# works on Databricks runtime 16.4 LTS (includes Apache Spark 3.5.0, Scala 2.12)
 
 DIR=/databricks/jars
 SPARK="3.5"
