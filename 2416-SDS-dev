@@ -21,3 +21,4 @@ pip install mapclassify==2.6.1
 pip install folium==0.15.1
 pip install rioxarray==0.18.2
 pip install pandera[geopandas]==0.24
+pip install dask-geopandas==0.5.0
