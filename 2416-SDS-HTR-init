@@ -6,7 +6,6 @@ URL=https://raw.githubusercontent.com/Defra-Data-Science-Centre-of-Excellence/es
 wget $URL/rootcerts.sh -O- | bash
 wget $URL/update.sh -O- | bash 
 wget $URL/c_dependencies.sh -O- | bash 
-wget $URL/sedona_172.sh -O- | bash 
 
 # installed through the libraries GUI instead as programatically didn't work
 #pip install /Volumes/prd_dash_lab/esa_restricted/sds/sds_dash_download-0.1.0-py3-none-any.whl
@@ -19,9 +18,11 @@ pip install matplotlib==3.8.3
 pip install mapclassify==2.6.1
 pip install folium==0.15.1
 pip install rioxarray==0.18.2
-pip install pandera[geopandas]==0.24
+pip install pandera[geopandas]==0.31
 pip install dask-geopandas==0.5.0
 pip install numba==0.63.1
 pip install pydantic==2.11
 pip install 'ibis-framework[duckdb,geospatial]'
 pip install duckdb==1.4.4
+pip install openpyxl==3.1.5
+pip install OSGridConverter==0.1.3
