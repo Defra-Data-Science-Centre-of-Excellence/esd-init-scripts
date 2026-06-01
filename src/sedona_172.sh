@@ -10,7 +10,7 @@ wget --no-check-certificate -NP  $DIR "https://repo1.maven.org/maven2/org/datasy
 wget --no-check-certificate -NP  $DIR "https://repo1.maven.org/maven2/org/apache/sedona/sedona-spark-shaded-${SPARK}_${SCALA}/$SEDONA/sedona-spark-shaded-${SPARK}_${SCALA}-$SEDONA.jar"
 
 pip install \
-  apache-sedona==$SEDONA \
+  apache-sedona==$SEDONA --extra-index-url https://pypi.org/simple/ \
   geopandas==1.0.1 \
   keplergl==0.3.7 \
   pydeck==0.9.1
